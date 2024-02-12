@@ -1,4 +1,4 @@
-module github.com/keisukesakasai/exporters/otlp/otlpmetric/otlpmetricgrpc
+module go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc
 
 go 1.20
 
