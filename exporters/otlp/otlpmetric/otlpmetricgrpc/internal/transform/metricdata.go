@@ -194,7 +194,7 @@ func HistogramDataPoints[N int64 | float64](dPts []metricdata.HistogramDataPoint
 			Sum:               &sum,
 			BucketCounts:      dPt.BucketCounts,
 			ExplicitBounds:    dPt.Bounds,
-			xemplars:          Exemplars(dPt.Exemplars),
+			Exemplars:         Exemplars(dPt.Exemplars),
 		}
 		if v, ok := dPt.Min.Value(); ok {
 			vF64 := float64(v)
